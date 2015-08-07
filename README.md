@@ -86,3 +86,12 @@ Updates and fixes I would make to Team Fortress 2, were I on the TF2 Team.
 - Replace the class image in the corner (which is redundant with the one used during gameplay) with the current map's thumbnail.
 - Display the next map in the corner of the scoreboard (when set), next to the time remaining before changing to it.
   - Server extensions should be able to override this with "Next Map Pending Vote".
+
+## Auto-balance
+
+- Add a convar / new convar values for team rebalancing, where after the first member of the imbalanced team dies, all other members of that team who dies before the player respawns are taken into consideration, and the member of the team to be rebalanced is selected when the first player to die respawns, based on:
+  - Player closest to own/other team's median/mean score (4 different settings)
+    - This mean/median should be frozen when the player dies, so as to prevent candidates going from most likely, to not most likely, to most likely again as the scoring composition changes 
+  - Lowest-scoring player (for least effect on team composition)
+  - Highest-scoring player (for maximum tide-turning)
+  - The "You have been switched!" dialog would then be "You may be switched in X seconds" in the time before the switch, displayed in the *current team's* color, to anybody who is made a candidate - if another candidate replaces them, the dialog text is changed to "<player> will be switched in X seconds".
