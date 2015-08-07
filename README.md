@@ -94,4 +94,4 @@ Updates and fixes I would make to Team Fortress 2, were I on the TF2 Team.
     - This mean/median should be frozen when the player dies, so as to prevent candidates going from most likely, to not most likely, to most likely again as the scoring composition changes 
   - Lowest-scoring player (for least effect on team composition)
   - Highest-scoring player (for maximum tide-turning)
-  - The "You have been switched!" dialog would then be "You may be switched in X seconds" in the time before the switch, displayed in the *current team's* color, to anybody who is made a candidate - if another candidate replaces them, the dialog text is changed to "<player> will be switched in X seconds".
+  - The "You have been switched!" dialog would then be "You may be switched in X seconds" in the time before the switch, displayed in the *current team's* color, to anybody who is made a candidate - if another candidate replaces them, the dialog text is changed to "<player> will be switched in X seconds". (The "You have been switched" dialog, in the *new* team's color, is then only displayed for a period of time *after the switch*.)
