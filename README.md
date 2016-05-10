@@ -7,7 +7,7 @@ Updates and fixes I would make to Team Fortress 2, were I on the TF2 Team.
 Changes I'd make to the development pipeline of the TF2 team going forward:
 
 - Run a [Matrix-Driven Failure Mode & Effect Analysis][MD-FMEA] when adding/changing mechanics and features, to catch exploits, bugs, and inconsistencies before they're released in the wild.
-- Open up a public TF2 issue tracker, and post open items like art assets that need to be rebuilt for the community to provide themselves. (Doing this on GitHub might not be a terrible idea.)
+- Open up a public TF2 issue tracker, and post open items like art assets that need to be rebuilt, so that the community can provide resources and alleviate the burden on the dev team. (Doing this on GitHub might not be a terrible idea.)
 
 [MD-FMEA]: https://www.kickstarter.com/projects/tiko3d/tiko-the-unibody-3d-printer/posts/1572161
 
