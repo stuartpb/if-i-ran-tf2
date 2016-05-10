@@ -2,9 +2,19 @@
 
 Updates and fixes I would make to Team Fortress 2, were I on the TF2 Team.
 
+## Development Best Practices
+
+Changes I'd make to the development pipeline of the TF2 team going forward:
+
+- Run a [Matrix-Driven Failure Mode & Effect Analysis][MD-FMEA] when adding/changing mechanics and features, to catch exploits, bugs, and inconsistencies before they're released in the wild.
+- Open up a public TF2 issue tracker, and post open items like art assets that need to be rebuilt for the community to provide themselves. (Doing this on GitHub might not be a terrible idea.)
+
+[MD-FMEA]: https://www.kickstarter.com/projects/tiko3d/tiko-the-unibody-3d-printer/posts/1572161
+
 ## Loadouts
 
 - Allow users to wear as many non-conflicting cosmetics as possible.
+  - Note that this was written before many hats were changed to be non-conflicting: there'd probably be some thought given here to stop people from sticking eight sets of ears and horns out of their helmets simultaneously.
 - Replace the 4 complete-loadout sets with a user-fillable list of nameable loadout "layers", defining a set of items to switch to together, while not changing items in other slots.
   - This list is toggleable with a list of currently-equipped items, sorted by slot, which replaces the current slots.
 - Add [a mechanism for applying these loadouts automatically](https://github.com/stuartpb/tf2-loadrules).
